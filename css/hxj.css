@@ -1,3 +1,11 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body, button, input, select, textarea {
+	font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
 .top{
 	font-size: 13px;
 	color: black;
@@ -20,34 +28,37 @@ a:hover{
 body{
 	margin: 0;
 }
-.cf:before, .cf:after {   
-    content:"";   
-    display:table;   
-}   
-.cf:after{   
-    clear:both;   
-    overflow:hidden;   
-}   
+.cf:before, .cf:after {
+    content:"";
+    display:table;
+}
+.cf:after{
+    clear:both;
+    overflow:hidden;
+}
 .td1{
 	background-color: #3090ff;
 	border: none;
 	height: 24px;
 	color: white
 }
+input{
+	float: left;
+}
 input.ex1:hover{
 	background-color:lightgrey;
 }
 .cen{
-	text-align:center
+	text-align:center;
 }
 .form1{
-	height: 33px;
+	height: 36px;
 	width: 540px;
 	border:solid 1px #b6b6b6;
 	border-right:0px ;
+	margin-left: 350px;
 	margin-top: 20px;
 	font-size: 18px;
-	display:inline
 }
 
 input.ex3:hover{
@@ -55,9 +66,9 @@ input.ex3:hover{
 }
 .in1{
 	background-color: #3090ff;
+	margin-top: 20px;
 	font-size: 16px;
-	border: none;
-	height: 37px;
+	height: 38px;
 	width: 100px;
 	color: white;
 }
@@ -93,4 +104,3 @@ input.ex3:hover{
     bottom: 57px;
     width: 100%;
 }
-
